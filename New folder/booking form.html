@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Hotel Api Rooms Booking Form</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel ="stylesheet"  href= "style.css"/>
+	</head>
+
+	<body>
+
+		<div class="wrapper">
+			<div class="inner">
+				<form action="register1.php" method="POST" name="form1">
+					<h3>Find a Room</h3>
+					<div class="form-row">
+						<div class="form-wrapper">
+							<label for="">Name *</label>
+							<input type="text" class="form-control" placeholder="Your Name">
+						</div>
+						<div class="form-wrapper">
+							<label for="">Phone *</label>
+							<input type="text" class="form-control" placeholder="Phone">
+						</div>
+					</div>
+					<div class="form-row">
+						<div class="form-wrapper">
+							<label for="">Check-in *</label>
+							<span class="lnr lnr-calendar-full"></span>
+							<input type="date" class="form-control datepicker-here" data-language='en' data-date-format="dd M yyyy" id="dp1">
+						</div>
+						<div class="form-wrapper">
+							<label for="">Check-out *</label>
+							<span class="lnr lnr-calendar-full"></span>
+							<input type="date" class="form-control datepicker-here" data-language='en'  data-date-format="dd M yyyy" id="dp2">
+						</div>
+					</div>
+					<div class="form-row last">
+						<div class="form-wrapper">
+							<label for="">Adults *</label>
+							<select name="" id="" class="form-control">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+							<i class="zmdi zmdi-chevron-down"></i>
+						</div>
+						<div class="form-wrapper">
+							<label for="">Chidren *</label>
+							<select name="" id="" class="form-control">
+								<option value="1">1</option>
+								<option value="2">2</option>
+								<option value="3">3</option>
+								<option value="4">4</option>
+								<option value="5">5</option>
+								<option value="6">6</option>
+							</select>
+							<i class="zmdi zmdi-chevron-down"></i>
+						</div>
+					</div>
+					<div class="checkbox">
+						<label>
+							<input type="checkbox"> No one rejects, dislikes, or avoids pleasure itself.
+							<span class="checkmark"></span>
+						</label>
+					</div>
+					<button data-text="Book Room">
+						<span>Book Room</span>
+					</button>
+				</form>
+			</div>
+		</div>
+		
+	</body>
+</html>
